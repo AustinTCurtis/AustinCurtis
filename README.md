@@ -16,4 +16,4 @@ You can install the development version directly from GitHub:
 
 ```r
 # install.packages("devtools")  # if not installed
-devtools::install_github("AustinTCurtis/co2Package")
+devtools::install_github("AustinTCurtis/AustinCurtis")
