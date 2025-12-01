@@ -1,0 +1,26 @@
+---
+title: "Introduction to the co2Package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to co2Package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Introduction
+
+The `co2Package` is an R package that provides simple tools for loading, 
+summarizing, and visualizing country-level annual CO2 emissions data. 
+The dataset used in this package is based on the Our World in Data 
+"Annual CO2 emissions per country" file. 
+
+This vignette introduces the dataset, demonstrates the main functions, 
+and briefly explains how defensive programming and debugging were used 
+during development.
+
+# Getting Started
+
+To use the package after installation, load it as usual:
+
+```r
+library(co2Package)
